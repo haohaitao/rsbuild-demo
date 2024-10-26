@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  color: #fff;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  /* background-image: linear-gradient(to bottom, #020917, #101725); */
 }
 
 .content {
@@ -16,7 +14,8 @@ body {
 
 .content h1 {
   font-size: 3.6rem;
-  font-weight: 700;
+  font-weight: 500;
+  color: #000000;
 }
 
 .content p {
@@ -24,16 +23,15 @@ body {
   font-weight: 400;
   opacity: 0.5;
 }
-
 .app-env {
   position: fixed;
-  right: 100px;
+  right: 0;
   bottom: 18px;
   z-index: 200;
-  opacity: 0.8;
-  border-radius: 2px;
-  color: #fff;
   padding: 4px 8px;
   font-size: 18px;
+  color: white;
   background: #1890ff;
+  border-radius: 2px;
+  opacity: 0.8;
 }
